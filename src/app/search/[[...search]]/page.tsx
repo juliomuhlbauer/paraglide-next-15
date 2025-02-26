@@ -34,7 +34,7 @@ export default async function Page({
   if (!transactionSlug || !typeSlug) {
     return (
       <>
-        <h1>Search</h1>
+        <h1>{m.search()}</h1>
       </>
     );
   }
