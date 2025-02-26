@@ -5,7 +5,7 @@ import { redirect } from "next/navigation";
 const TRANSACTIONS = [
   {
     id: "buy",
-    slugs: { en: "buy", de: "comprar" },
+    slugs: { en: "buy", de: "kaufen" },
   },
 ];
 
@@ -14,7 +14,7 @@ const TYPES = [
     id: "home",
     slugs: {
       en: "homes",
-      de: "casas",
+      de: "hauser",
     },
   },
 ];
