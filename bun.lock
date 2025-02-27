@@ -9,7 +9,7 @@
         "react-dom": "^19.0.0",
       },
       "devDependencies": {
-        "@inlang/paraglide-js": "2.0.0-beta.22",
+        "@inlang/paraglide-js": "2.0.0-beta.24",
         "@types/node": "^20",
         "@types/react": "^19",
         "@types/react-dom": "^19",
@@ -58,7 +58,7 @@
 
     "@img/sharp-win32-x64": ["@img/sharp-win32-x64@0.33.5", "", { "os": "win32", "cpu": "x64" }, "sha512-MpY/o8/8kj+EcnxwvrP4aTJSWw/aZ7JIGR4aBeZkZw5B7/Jn+tY9/VNwtcoGmdT7GfggGIU4kygOMSbYnOrAbg=="],
 
-    "@inlang/paraglide-js": ["@inlang/paraglide-js@2.0.0-beta.22", "", { "dependencies": { "@inlang/recommend-sherlock": "0.2.1", "@inlang/sdk": "2.4.0", "commander": "11.1.0", "consola": "3.4.0", "json5": "2.2.3", "unplugin": "^2.1.2", "urlpattern-polyfill": "^10.0.0" }, "bin": { "paraglide-js": "bin/run.js" } }, "sha512-GLijiqID8Avuqg+1W4oJ8vE/cgZ7Bb2GBU4VqHcJX69MPsBl5HuHHUdbNgeinSU9SXlMkC7Vh8fopbS8at4qvQ=="],
+    "@inlang/paraglide-js": ["@inlang/paraglide-js@2.0.0-beta.24", "", { "dependencies": { "@inlang/recommend-sherlock": "0.2.1", "@inlang/sdk": "2.4.0", "commander": "11.1.0", "consola": "3.4.0", "json5": "2.2.3", "unplugin": "^2.1.2", "urlpattern-polyfill": "^10.0.0" }, "bin": { "paraglide-js": "bin/run.js" } }, "sha512-IMAvjjpDe531UhgeMYbMr1fcel4MTASlkVzQzqD4kO1xz/zvsFmr6vhS/mT9iunYJWNnKSvfkEDhW2AeJUlRSA=="],
 
     "@inlang/recommend-sherlock": ["@inlang/recommend-sherlock@0.2.1", "", { "dependencies": { "comment-json": "^4.2.3" } }, "sha512-ckv8HvHy/iTqaVAEKrr+gnl+p3XFNwe5D2+6w6wJk2ORV2XkcRkKOJ/XsTUJbPSiyi4PI+p+T3bqbmNx/rDUlg=="],
 
