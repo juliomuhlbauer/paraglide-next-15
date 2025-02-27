@@ -1,5 +1,5 @@
 import { m } from "@/paraglide/messages";
-import { getLocale } from "@/paraglide/runtime";
+import { getLocale, localizeHref, localizeUrl } from "@/paraglide/runtime";
 import { redirect } from "next/navigation";
 
 const TRANSACTIONS = [
@@ -49,6 +49,8 @@ export default async function Page({
     Object.values(t.slugs as Record<string, string>).includes(typeSlug)
   );
 
+  console.log(locale, transaction, type);
+
   if (!transaction || !type) {
     redirect("/search");
   }
@@ -57,7 +59,9 @@ export default async function Page({
     transaction?.slugs[locale] !== transactionSlug ||
     type?.slugs[locale] !== typeSlug
   ) {
-    redirect(`/search/${transaction?.slugs[locale]}/${type?.slugs[locale]}`);
+    const path = `/search/${transaction?.slugs[locale]}/${type?.slugs[locale]}`;
+
+    redirect(localizeHref(path));
   }
 
   return (
