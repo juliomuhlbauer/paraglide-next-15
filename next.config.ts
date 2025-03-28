@@ -1,9 +1,7 @@
 import { paraglideWebpackPlugin } from "@inlang/paraglide-js";
+import { NextConfig } from "next";
 
-/**
- * @type {import('next').NextConfig}
- */
-export default {
+const nextConfig: NextConfig = {
   webpack: (config) => {
     config.plugins.push(
       paraglideWebpackPlugin({
@@ -16,3 +14,5 @@ export default {
     return config;
   },
 };
+
+export default nextConfig;
